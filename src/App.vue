@@ -1,7 +1,10 @@
 <template>
   <div id="app">
-    <img alt="Vue logo" src="./assets/logo.png">
-    <HelloWorld msg="Welcome to Your Vue.js App"/>
+    <HelloWorld>
+      <template v-slot:title>
+        <link rel="preload" href="https://f1u-cd-mst-mny-eu-ce.wsf-e-loreal.com/en/-/media/project/loreal/brand-sites/mny/master/dmi/greenedition/landingpage_headers_greenedition_1440x540_2.jpg" as="image" type="image/jpg" />
+      </template>
+    </HelloWorld>
   </div>
 </template>
 
